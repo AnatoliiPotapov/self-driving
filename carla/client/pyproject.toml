@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "client"
+version = "0.1.0"
+description = ""
+authors = ["Anatoly Potapov"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+carla = "^0.9.13"
+pygame = "^2.1.2"
+numpy = "^1.21.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
